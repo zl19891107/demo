@@ -30,8 +30,7 @@ class List extends Component {
             <
             Text onPress = { this._backToSetting.bind(this) }
             style = { styles.text } >
-            列表 < /Text> <
-            /View>
+            列表 < /Text> </View >
         );
     }
 }
